@@ -1,0 +1,64 @@
+.shell {
+  position: fixed;
+  left: 1%;
+  top: 10%;
+  width: 5%;
+  height: 80%;
+  border-radius: 50px;
+  overflow: hidden;
+  flex-direction: column;
+  background-color: rgb(17, 24, 39);
+  border-radius: 1px;
+  transition: 0.3s;
+  box-shadow: 0 0 1vh rgba(0, 0, 0, 1);
+  z-index: 1;
+}
+.box {
+  display: block;
+  height: 12%;
+  width: 100%;
+  position: relative;
+  transition: 0.3s;
+  color: rgb(160, 160, 175);
+}
+.box img {
+  display: block;
+  position: absolute;
+  object-fit: cover;
+  width: 60px;
+  height: 100%;
+  padding: 4%;
+  border-radius: 1%;
+}
+.box:nth-child(1)::after,
+.box:nth-child(6)::after {
+  content: "";
+  display: block;
+  width: 100%;
+  height: 2px;
+  background-color: rgb(55, 65, 81);
+  position: absolute;
+  bottom: -2px;
+}
+.box span {
+  position: relative;
+  display: block;
+  top: 0;
+  left: 33%;
+  height: 100%;
+  padding-top: 10%;
+  font: 500 15%;
+  font-family: "Arial";
+  opacity: 0;
+  transition: 0.1s;
+}
+.shell:hover {
+  width: 20%;
+}
+.box:hover {
+  background-color: rgb(55, 65, 81);
+  color: #fff;
+}
+.shell:hover span {
+  opacity: 1;
+}

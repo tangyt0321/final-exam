@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>account</title>
+</head>
+
+<style>
+    body {
+        background-color: #f2f2f2;
+        font-family: Arial;
+        font-size: 16px;
+        line-height: 1.5;
+        margin: 0;
+        padding: 0;
+    }
+
+    #goback a {
+        text-decoration: none;
+        display: block;
+        height: 40px;
+        width: 100px;
+        margin: 20px;
+        text-align: center;
+        line-height: 40px;
+        border-radius: 3px;
+        color: rgb(63, 63, 63);
+        background-color: #a7a7a7;
+        cursor: pointer;
+    }
+
+    .container {
+        display: block;
+        position: absolute;
+        top: 100px;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    form {
+        background-color: #fff;
+        border-radius: 5px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+        margin: 50px auto;
+        padding: 20px;
+        padding-bottom: 40px;
+        width: 300px;
+    }
+
+    p {
+        display: block;
+        margin-bottom: 10px;
+        /* background-color: #3e8e41; */
+    }
+
+    input[type="text"],
+    input[type="password"] {
+        border: 1px solid #ccc;
+        border-radius: 3px;
+        padding: 10px;
+        width: 90%;
+    }
+
+    .form-group {
+        display: flex;
+        width: 100%;
+        /* background-color: #3e8e41; */
+    }
+
+    input[type="submit"] {
+        display: block;
+        width: 20%;
+        height: 40px;
+        background-color: #4CAF50;
+        border: none;
+        border-radius: 3px;
+        color: #fff;
+        cursor: pointer;
+        font-size: 16px;
+    }
+
+    input[type="submit"]:hover {
+        background-color: #3e8e41;
+    }
+
+    .container a {
+        text-decoration: none;
+        font-style: italic;
+        color: gray;
+    }
+
+    .form-group a {
+        text-decoration: none;
+        display: block;
+        height: 40px;
+        line-height: 40px;
+        margin-left: 30%;
+        border: none;
+        border-radius: 3px;
+        color: blue;
+        cursor: pointer;
+        font-size: 16px;
+    }
+</style>
+
+
+<body>
+    <div id="goback"><a href="./project.html">返回首页</a></div>
+
+    <div class="container">
+        <form action="./project.html">
+            <h2>登录</h2>
+            <p>用户名:</p>
+            <input type="text" id="username"required><br>
+
+            <p>密码:</p>
+            <input type="password" id="password"required>
+            <a href="forget.html">忘记密码？</a>
+            <br><br>
+            <div class="form-group"> <input type="submit" id="submit" >
+
+                <a href="register.html">未注册？点此注册</a>
+            </div>
+
+        </form>
+    </div>
+</body>
+
+</html>

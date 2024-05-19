@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>明日方舟prts(仿)</title>
+    <link rel="shortcut icon" type="image/x-icon" href="./image/主页标志.jpg">
+    </link>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/head.css">
+    <link rel="stylesheet" href="./css/shell.css">
+    <script src="./js/script.js" type="text/javascript"></script>
+</head>
+
+
+<body>
+
+    <div class="head" name="top">
+        <img src="image/bk/bk_1.png" class="bg">
+    </div>
+
+    <div class="shell">
+        <a href="project.html" class="box"><img src="./image/iconfont/家.png"><span>首页</span></a>
+        <a href="account.html" class="box"><img src="./image/iconfont/数据.png"><span>账号</span></a>
+        <a href="#" class="box"><img src="./image/iconfont/主题.png"><span>主题</span></a>
+        <a href="#" class="box"><img src="./image/iconfont/说明.png"><span>帮助</span></a>
+        <a href="#" class="box"><img src="./image/iconfont/邮件.png"><span>消息</span></a>
+        <a href="#" class="box"><img src="./image/iconfont/设置.png"><span>设置</span></a>
+        <a href="#" class="box"><img src="./image/iconfont/留心.png"><span>支持我们</span></a>
+        <a href="#" class="box"><img src="./image/iconfont/留心.png"><span>反馈与建议</span></a>
+    </div>
+<!-- 
+    <a href="#" class="top-btn" id="top-btn-1">登录</a>
+    <a href="#" class="top-btn" id="top-btn-2">注册</a> -->
+
+    <div id="content-wrapper">
+        <article>
+            <div class="main">
+                <img src="image/主页标志.jpg" height="100px">
+                <h1 class="md">明日方舟</h1>
+                <p>《明日方舟》是由上海鹰角网络科技有限公司自主开发运营的一款策略向即时战略塔防游戏，iOS和Android服务器分别于2019年4月30日和5月1日开启公测，该游戏适龄级别为12+ 。</p>
+                <p>在游戏中，玩家将作为罗德岛的领导者“博士”，带领罗德岛的一众干员救助受难人群、处理矿石争端以及对抗诸如整合运动等其他势力。在错综复杂的势力博弈之中，寻找治愈矿石病的方法。</p>
+                <h2>游戏简介</h2>
+                <hr>
+                <div class="introduce">
+                    <table>
+                        <tr>
+                            <td>游戏名称</td>
+                            <td>明日方舟</td>
+                        </tr>
+                        <tr>
+                            <td>制作人</td>
+                            <td>海猫络合物</td>
+                        </tr>
+                        <tr>
+                            <td>别名</td>
+                            <td>Arknights</td>
+                        </tr>
+                        <tr>
+                            <td>主要配音</td>
+                            <td>黑泽朋世、日笠阳子、佐仓绫音（等）</td>
+                        </tr>
+                        <tr>
+                            <td>游戏类型</td>
+                            <td>塔防策略RPG</td>
+                        </tr>
+                        <tr>
+                            <td>游戏平台</td>
+                            <td>Android、iOS</td>
+                        </tr>
+                        <tr>
+                            <td>内容主题</td>
+                            <td>战争</td>
+                        </tr>
+                    </table>
+                    <table>
+                        <tr>
+                            <td>地区</td>
+                            <td>中国、日本、韩国、欧洲、美国</td>
+                        </tr>
+                        <tr>
+                            <td>游戏画面</td>
+                            <td>2D</td>
+                        </tr>
+                        <tr>
+                            <td>开发商</td>
+                            <td>上海鹰角网络科技有限公司</td>
+                        </tr>
+                        <tr>
+                            <td>发行引擎</td>
+                            <td>Unity3D</td>
+                        </tr>
+                        <tr>
+                            <td>发行公司</td>
+                            <td>上海鹰角网络科技有限公司</td>
+                        </tr>
+                        <tr>
+                            <td>发行日期 (iOS)</td>
+                            <td>2019年4月30日</td>
+                        </tr>
+                        <tr>
+                            <td>发行日期 (Android)</td>
+                            <td>2019年5月1日</td>
+                        </tr>
+                    </table>
+                </div>
+
+                <h2>今日信息</h2>
+                <hr>
+                <div id="clock">
+                    <span><img src="./image/iconfont/icon-flag.png" height="10px">当前时间：</span>
+                    <div class="date" id="date"></div>
+                </div>
+                <div class="news">
+                    <table>
+                        <tr>
+                            <th id="n1"><img src="./image/fb/120px-道具_高级作战记录.png">
+                                <hr><span>常驻</span>
+                            </th>
+                            <th id="n2"><img src="./image/fb/120px-道具_技巧概要·卷3.png">
+                                <hr><span>二三五日</span>
+                            </th>
+                            <th id="n3"><img src="./image/fb/120px-道具_龙门币.png">
+                                <hr><span>二四六日</span>
+                            </th>
+                            <th id="n4"><img src="./image/fb/120px-道具_采购凭证.png">
+                                <hr> <span>一四六日</span>
+                            </th>
+                            <th id="n5"><img src="./image/fb/120px-道具_碳素.png">
+                                <hr><span>一三五日</span>
+                            </th>
+                        </tr>
+                    </table>
+                    <table>
+                        <tr>
+                            <th id="n6"><img src="./image/fb/120px-摧古拉朽_缩略.png">
+                                <hr><span>一二五六</span>
+                            </th>
+                            <th id="n7"><img src="./image/fb/120px-身先士卒_缩略.png">
+                                <hr><span>二三五六</span>
+                            </th>
+                            <th id="n8"><img src="./image/fb/120px-固若金汤_缩略.png">
+                                <hr><span>一四五日</span>
+                            </th>
+                            <th id="n9"><img src="./image/fb/120px-势不可挡_缩略.png">
+                                <hr><span>三四六日</span>
+                            </th>
+                        </tr>
+                    </table>
+                </div>
+
+                <div class="btn">
+                    <h2>背景设定</h2>
+                    <hr>
+                    <h3>源石</h3>
+                    <p>泰拉世界普遍存在一种矿物，大部分呈黑色半透光晶体。源石都蕴藏着巨大的能量，是引发天灾的首要因素。通常被运用于法术领域，是制造各种施术工具和法术道具的基本材料和催化物，离开了源石辅助，法术的使用效率会大幅下降。现在，随着源石引擎技术的革新，越来越多的源石被各个国家作为能源使用。
+                    </p>
+                    <h3>天灾</h3>
+                    <p>在泰拉世界频繁发生的各种自然灾害的统称。包含且不限于暴风、雪灾、强降雨、洪水等甚至陨石坠落。天灾的发生频率非常高，规律也难以捉摸，导致大部分的文明通过全城市迁徙来躲避天灾。天灾过后往往会留下一种叫做源石的矿物。研究表明，天灾其实反而可能是源石的一种传播媒介。
+                    </p>
+                    <h3>矿石病</h3>
+                    <p>目前发现长期接触源石及其工业衍生品，会使人更容易得一种被称为“矿石病”的不治之症。患上矿石病的人被称为“感染者”。矿石病会以一种危险的形式增强人的法术使用能力，但是却会在患者使用法术的过程中不断扩大感染矿石病范围最终夺走感染者的生命并以其作为新的感染源。有关该病症已经有多方面的长期研究，然而并没有太多有效成果。
+                    </p>
+                    <h3>罗德岛</h3>
+                    <p>罗德岛制药公司是一家注册医药研发公司。罗德岛在公开的资料中声称正在研究可以应用于各个国家、组织或个人遭遇的感染者问题的医疗方案，因此在各国范围内广招贤士，不管资历、无论感染。同时，罗德岛也为其雇员提供良好的医疗与生活条件以及最先进的研究设备，这吸引了许多走投无路的感染者和立志改变感染者处境的有能人士。
+                    </p>
+                    <h3>龙门</h3>
+                    <p>由魏彦吾领导的独立城邦，开放、包容、自由是其最大的特征。</p>
+                    <h3>维多利亚帝国</h3>
+                    <p>
+                        由德拉克与阿斯兰统治的现代国家，占据了泰拉大地最为富饶的中央谷地，领土广袤，资源丰富，与多个核心圈国家相邻，除此之外还有数个开拓区与飞地。维多利亚帝国强调强权与扩张，旨在泰拉大地上建立自己主导的国际秩序，通过霸权与掠夺开拓地维持贵族利益，以及维持维多利亚至上的世界体系。
+                    <h3>乌萨斯帝国</h3>
+                    <p>以乌萨斯为主体民族的庞大帝国，幅员辽阔，地处极北，虽然坐拥着大量矿产，但多数国土处于未开发状态。在上一任皇帝的带领下，乌萨斯开始了工业化与强兵之路，通过对周边国家发起战争，使得国力极速发展。而后因对东国的战争失利，军队与新老贵族之间不可调和的矛盾爆发，乌萨斯迎来了剧烈的社会变革。
+                    </p>
+                    <h3>整合运动</h3>
+                    <p>起因不明并四处肆虐的天灾，席卷过的土地上出现了大量的神秘矿物——被人们称为“源石”。虽然源石的发现历史已久，但是依赖于技术的进步，其蕴含的能量使得文明顺利迈入现代，但与此同时，源石本身也催生出“感染者”的存在。这些身俱力量与不幸的存在，如今他们中的一部分，妄图与源石整合为一，为大地带来新的秩序。这场战火阴谋使对抗天灾遇到的新的阻碍。
+                    </p>
+                    <h3>源石技艺</h3>
+                    <p>源石被发现之后，人们发掘出一种通过它来施放一系列令物质改变原有性状的技术，这种技术被称为源石技艺，常被俗称为“法术”。源石技艺所运用的能源，一般被认为来自于源石本身。而人是否能施放法术，以及所能施放法术的形式、强度、效果等，通常受到先天具备的素质、后天对源石技艺的学习能力这两方面因素的制约。
+                    </p>
+                    <h3>感染者</h3>
+                    <p>被源石所感染的人。理论致死率100%，死亡时存在扩散传染性以及潜在危险能力，是各国隔离驱逐的目标。长久以来，没人告诉他们该如何渡过余生，如今伴随着一位颠覆者的出现，越来越多的感染者被纳入一场名为“整合运动”的反抗浪潮。
+                    </p>
+                    <h3>移动城邦</h3>
+                    <p>建造在可移动设备上的城市。频繁发生且破坏力巨大的天灾，迫使几乎所有的国家，都需要采用定期迁移家园与聚落的方式进行躲避。而移动城市，正是在这种需求下慢慢诞生的。人们在迁徙的过程中，尝试将建筑和种种装置安设在移动设备之上，并不断地扩大载具的规模。在文明与技术的演变之下，人们最终创造出了十分庞大的移动城市。
+                    </p>
+                </div>
+            </div>
+        </article>
+        <aside>
+            <div class="main-table">
+                <table>
+                    <tr>
+                        <td><a href="./brench/agents_list.html"><img src="image/mpbutton/Mpbuttons1.png"
+                                    height="100px"><span>干员档案</span></a></td>
+                        <td><a href="./brench/enemy_list.html"><img src="image/mpbutton/Mpbuttons2.png"
+                                    height="100px"><span>敌人档案</span></a></td>
+                    </tr>
+                    <tr>
+                        <td><a href="./brench/maps_list.html"><img src="image/mpbutton/Mpbuttons3.png"
+                                    height=100px><span>关卡一览</span></a></td>
+                        <td><a href="./brench/activities_list.html"><img src="image/mpbutton/Mpbuttons4.png"
+                                    height=100px><span>活动一览</span></a> </td>
+                    </tr>
+                    <tr>
+                        <td><a href="#"><img src="image/mpbutton/Mpbuttons5.png" height=100px><span>物品一览</span></a></td>
+                        <td><a href="#"><img src="image/mpbutton/Mpbuttons6.png" height=100px><span>公招计算</span></a></td>
+                    </tr>
+                    <tr>
+                        <td><a href="#"><img src="image/mpbutton/Mpbuttons7.png" height=100px><span>卡池一览</span></a></td>
+                        <td><a href="#"><img src="image/mpbutton/Mpbuttons10.png" height=100px><span>采购中心</span></a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><a href="./brench/skin_list.html"><img src="image/mpbutton/Mpbuttons11.png"
+                                    height=100px><span>时装回廊</span></a></td>
+                        <td><a href="#"><img src="image/mpbutton/Mpbuttons12.png" height=100px><span>剧情记录</span></a>
+                        </td>
+                    </tr>
+
+
+                </table>
+            </div>
+            <div class="topp">
+                <a href="#top"><img src="./image/top.png" width="100px" height="100px"></a>
+            </div>
+        </aside>
+    </div>
+</body>
+
+</html>
