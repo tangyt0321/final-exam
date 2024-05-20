@@ -26,3 +26,25 @@ function checkPassword() {
 
   return true;
 }
+
+function checkPassword() {
+  var password = document.getElementById("password1");
+  if (password.value.length < 6 || password.value.length > 16) {
+    password.value = "";
+    password.placeholder = "密码长度必须在6到16个字符之间！";
+    return false;
+  }
+
+  return true;
+}
+
+function checkPassword() {
+  var password = document.getElementById("password2");
+  if (password.value.length < 6 || password.value.length > 16) {
+    password.value = "";
+    password.placeholder = "密码长度必须在6到16个字符之间！";
+    return false;
+  }
+
+  return true;
+}
